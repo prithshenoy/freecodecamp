@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .img-ka-css{
+      @apply inline-block h-12 w-12 rounded-full ring-[5px] ring-pink-200 overflow-hidden space-x-20 my-2 dark:ring-cyan-300
+  }
+}

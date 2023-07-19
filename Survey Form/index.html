@@ -8,14 +8,15 @@
   <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the plataform</p>
+    <div id="error"></div>
     <form id="survey-form" action="/">  
       <fieldset id="profile-information">      
         <label id="name-label" for="name"> Name
-          <input id ="name" class="input-area" type="text" placeholder="Enter your name" required>
+          <input id ="name" class="input-area" type="text" placeholder="Enter your name" >
         </label>
         
         <label id="email-label" for="email"> Email
-          <input id="email" class="input-area" type="email" placeholder="Enter your Email" required>
+          <input id="email" class="input-area" type="email" placeholder="Enter your Email" ><span class="formerror"><b>This is an error</b></span>
         </label>    
         <label id="number-label" for="number"> Age (<small>optional</small>)
           <input id="number" class="input-area" type="number" min="17" max="120" placeholder="Age">
@@ -25,7 +26,7 @@
             <option disabled selected>Select current role</option>
             <option value="student">Student</option>
             <option value="full time job">Full time Job</option>
-            <option value="full time learner">Full time Learner</option>
+            <option value="full time learner" selected>Full time Learner</option>
             <option value="prefer not say">Prefer not to say</option>
             <option value="other">Other</option>
           </select>
@@ -33,7 +34,7 @@
       </fieldset>
       <fieldset id="freeCodeCamp-rate">Would you recommend freeCodeCamp to a friend?     
         <label for="">
-          <input type="radio" id="definitelyChoice" name="rateChoice" value="1" checked/> Definitely
+          <input type="radio" id="definitelyChoice" name="rateChoice" value="1" /> Definitely
         </label>
         <label for="">
           <input type="radio" id="maybeChoice" name="rateChoice" value="2"/> Maybe
@@ -80,15 +81,15 @@
         <input type="checkbox" name="fcc-interest" id="wiki" value="wiki"/> Wiki
         </label>
         <label for="forum">
-        <input type="checkbox" name="fcc-interest" id="forum" value="forum"/> Forum
+        <input type="checkbox" name="fcc-interest" id="forum" value="forum" checked/> Forum
         </label>
         <label for="additional">
-        <input type="checkbox" name="fcc-interest" id="additional" value="additional-courses"/> Additional Courses
+        <input type="checkbox" name="fcc-interest" id="additional" value="additional-courses" checked/> Additional Courses
         </label>
         </fieldset>
       <fieldset id="sugestions">
         <label for="comments">Any comments or suggestions?
-          <textarea id="comments" placeholder="Enter Your comment here..." rows="5"></textarea>
+          <textarea id="comments" placeholder="Enter Your comment here..." rows="1" maxlength="10"></textarea>
         </label>
       </fieldset>    
       <input type="submit" value="Submit" id="submit"/>  

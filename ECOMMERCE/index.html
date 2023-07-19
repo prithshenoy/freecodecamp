@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce Site </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"  />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+    <section id="header">
+        <a href="#"><img src="image/logo.png" class="logo"alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active "href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">🛒Cart</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>Trade-in-Offers</h4>
+        <h2>Daily BlockBuster Deal</h2>
+        <h1>On all products</h1>
+        <p>Shop now and get up 70% off!</p>
+        <button onclick="GoShop()">Shop Now</button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="image/features/f1.jpg" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f2.jpg" alt="">
+            <h6>Cash On Delivery</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f3.jpg" alt="">
+            <h6>Express Delivery</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f4.jpg" alt="">
+            <h6>Easy Return</h6>
+        </div>
+        <div class="fe-box">
+            <img src="image/features/f5.jpg" alt="">
+            <h6>24/7 Support</h6>
+        </div>
+        
+    </section>
+
+    <section id="product1"class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collections</p>
+        <div class="pro-container">
+            <div class="pro"  onclick="pagechange('f6')">
+                <img src="image/products/f1.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 599</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+            <div class="pro"  onclick="pagechange('f2')">
+                <img src="image/products/f2.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 699</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+            <div class="pro"  onclick="pagechange('f3')">
+                <img src="image/products/f3.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 799</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+            <div class="pro">
+                <img src="image/products/f4.jpg"  onclick="pagechange('f4')">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 899</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+
+            <div class="pro"  onclick="pagechange('f5')">
+                <img src="image/products/f5.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 1099</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+
+            <div class="pro"  onclick="pagechange('f6')">
+                <img src="image/products/f6.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 599</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+
+            <div class="pro" onclick="pagechange('f7')">
+                <img src="image/products/f7.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 699</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+
+            <div class="pro"  onclick="pagechange('f8')">
+                <img src="image/products/f8.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 666</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+        </div>
+    </section>
+    <section id="sm-banner"class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals
+            </h4>
+            <h2>Buy 1 Get 1 FREE</h2>
+            <span>The best classic dress is on sale at Cara</span>
+            <button class="white">Learn More</button>
+
+        </div>
+
+        <div class="banner-box2">
+            <h4>Seasonal Sale!
+            </h4>
+            <h2>End of Season Sale</h2>
+            <span>The best classic dress is on sale at Cara</span>
+            <button class="white" onclick="GoShop()">Collections</button>
+
+        </div>
+    </section>
+   
+
+    <section class="section-p1" id="bg-banner">
+        <div class="big-banner">
+            <h2>WEEKEND SHOPPING</h2>
+            <h4>Discounts Every Hour</h4>
+            <span>With large variety,JUST FOR YOU</span>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="image/logo.png"  class="logo" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Ajanta Business center,Bejai Kapikad,Mangalore-575001</p>
+            <p><strong>Phone:</strong>0824-2244123/(+91)9126543789</p>
+            <p><strong>Hours:</strong>9:00-18:00.Mon-Sat</p>
+        </div>
+
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Playstore</p>
+            <div class="row">
+                <img src="image/pay/app.jpg" class="pay"alt="">
+                <img src="image/pay/play.jpg"class="pay" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="image/pay/pay.png" alt="">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@media (max-width:500px){
+    img{
+        display: none;
+       
+    }
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+div{
+    height: 500px;
+    width:50%;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+div:hover{
+    display: none;
+}
+p{
+    position:absolute;
+}

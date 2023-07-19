@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce Site </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"  />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+<body onload="init()">
+    <section id="header">
+        <a href="#"><img src="image/logo.png" class="logo"alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active "href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li ><a href="cart.html">🛒Cart</a><label id="badge">0</label></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- this is for f1.jpg -->
+    <section id="f1" class="prodetails section-p1" style="display: none;">
+    </section>
+    <!-- this is for f2.jpg -->
+    <section id="f2" class="prodetails section-p1"  style="display: none;">
+  
+    </section>
+    <!-- this is for f3.jpg -->
+    <section id="f3" class="prodetails section-p1"  style="display: none;">
+    </section>
+    <!-- this is for f4.jpg -->
+    <section id="f4" class="prodetails section-p1"  style="display: none;">
+        
+    </section>
+    <!-- this is for f5.jpg -->
+    <section id="f5" class="prodetails section-p1"  style="display: none;">
+        
+    </section>
+    <!-- this is for f6.jpg -->
+    <section id="f6" class="prodetails section-p1" style="display: none;">
+        
+    </section>
+    <!-- this is for f7.jpg -->
+    <section id="f7" class="prodetails section-p1" style="display: none;">
+        
+    </section>
+    <!-- this is for f8.jpg -->
+    <section id="f8" class="prodetails section-p1" style="display: none;">
+        
+    </section>
+
+    <!-- this is for n1.jpg -->
+    <section id="n1" class="prodetails section-p1" style="display: none;">
+        
+        
+    </section>
+    <!-- this is for n2.jpg -->
+    <section id="n2" class="prodetails section-p1" style="display: none;">
+    </section>
+    <!-- this is for n3.jpg -->
+    <section id="n3" class="prodetails section-p1" style="display: none;">
+    </section>
+    <!-- this is for n4.jpg -->
+    <section id="n4" class="prodetails section-p1" style="display: none;">
+    </section>
+    <!-- this is for n5.jpg -->
+    <section id="n5" class="prodetails section-p1" style="display: none;">
+    </section>
+    <!-- this is for n6.jpg -->
+    <section id="n6" class="prodetails section-p1" style="display: none;">
+    </section>
+    <!-- this is for n7.jpg -->
+    <section id="n7" class="prodetails section-p1" style="display: none;">
+    </section>
+    <!-- this is for n8.jpg -->
+    <section id="n8" class="prodetails section-p1" style="display: none;">
+    </section>
+
+
+
+
+
+    <section id="product1"class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collections</p>
+        <div class="pro-container">
+            <div class="pro" onclick="pagechange('n4')">
+                <img src="image/products/n4.jpg">
+                <div class="des">
+                    <span>
+                        Levi's</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 599</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+            <div class="pro"   onclick="pagechange('n3')">
+                <img src="image/products/n3.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 699</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+            <div class="pro"  onclick="pagechange('n2')">
+                <img src="image/products/n2.jpg">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 799</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+            <div class="pro"  onclick="pagechange('n1')">
+                <img src="image/products/n1.jpg">
+                <div class="des">
+                    <span>
+                        Levi's</span>
+                    <h5>XYZ</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Rs 899</h4>
+                </div>
+                <a href="#" class="cart">🛒</a>
+            </div>
+
+            
+        </div>
+    </section>
+    <section class="section-p1" id="bg-banner">
+        <div class="big-banner">
+            <h2>Become the TRIBE Member</h2>
+            
+            <h4>to enjoy extra benefitss</h4>
+        </div>
+    </section>
+   
+
+  
+    <footer class="section-p1">
+        <div class="col">
+            <img src="image/logo.png"  class="logo" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Ajanta Business center,Bejai Kapikad,Mangalore-575001</p>
+            <p><strong>Phone:</strong>0824-2244123/(+91)9126543789</p>
+            <p><strong>Hours:</strong>9:00-18:00.Mon-Sat</p>
+        </div>
+
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Playstore</p>
+            <div class="row">
+                <img src="image/pay/app.jpg" class="pay"alt="">
+                <img src="image/pay/play.jpg"class="pay" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="image/pay/pay.png" alt="">
+        </div>
+    </footer>
+    <script src="script.js" ></script>
+
+</body>
+</html>
